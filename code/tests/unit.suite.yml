@@ -1,0 +1,20 @@
+# Codeception Test Suite Configuration
+
+# suite for unit (internal) tests.
+class_name: UnitTester
+modules:
+    enabled: [Asserts, UnitHelper]
+extensions:
+    enabled:
+        - CodeceptionPactPhp\Extension\Env:
+              PACT_CONSUMER_NAME: HelloWorldGateway
+              PACT_DO_NOT_TRACK: true
+              PACT_PROVIDER_VERSION: 1.0.0
+              PACT_CONSUMER_VERSION: 1.0.0
+              PACT_CONSUMER_TAG: master
+              PACT_PROVIDER_TAG: master
+              PACT_PROVIDER_NAME: HelloApi
+              PACT_PROVIDER_BASE_URL: http://awesome.scot
+              PACT_PROVIDER_STATES_SETUP_URL: /tests/pact-state-setup
+              PACT_BROKER_URI: http://pact-broker:9292
+        - CodeceptionPactPhp\Extension\Pact

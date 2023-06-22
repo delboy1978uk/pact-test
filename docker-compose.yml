@@ -1,0 +1,85 @@
+version: '3.7'
+
+volumes:
+    db_data:
+        driver: local
+    postgres-volume:
+        driver: local
+
+services:
+    awesome.scot:
+        build:
+            context: ./build
+            dockerfile: ./httpd/Dockerfile
+        links:
+            - php
+        ports:
+            - 80:80
+            - 443:443
+        volumes_from:
+            - app
+    postgres:
+        image: postgres
+        healthcheck:
+            test: psql postgres --command "select 1" -U postgres
+        volumes:
+            - postgres-volume:/var/lib/postgresql/data
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: postgres
+
+    pact-broker:
+        image: pactfoundation/pact-broker:2.110.0-pactbroker2.107.1
+        ports:
+            - 9292:9292
+        depends_on:
+            - postgres
+        environment:
+            PACT_BROKER_PORT: 9292
+            PACT_BROKER_DATABASE_URL: "postgres://postgres:password@postgres/postgres"
+            PACT_BROKER_LOG_LEVEL: INFO
+            PACT_BROKER_SQL_LOG_LEVEL: INFO
+            PACT_BROKER_DATABASE_CONNECT_MAX_RETRIES: "5"
+            PACT_BROKER_BASE_URL: 'https://localhost http://localhost http://localhost:9292 http://pact-broker:9292 https://host.docker.internal http://host.docker.internal http://host.docker.internal:9292'
+
+
+    php:
+        build:
+            context: ./build
+            dockerfile: ./php/Dockerfile
+        ports:
+            - 9000
+            - 9003
+        volumes_from:
+            - app
+        links:
+            - mariadb
+            - mail
+        environment:
+            APPLICATION_ENV: '${APPLICATION_ENV}'
+        user: php:staff
+
+    app:
+        image: httpd:2.4.38
+        volumes:
+            - ./code:/var/www/html
+        command: "echo true"
+
+    mariadb:
+        image: mariadb:10.7.1
+        volumes:
+            - ./build/data:/docker-entrypoint-initdb.d
+            - db_data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: '[123456]'
+            MYSQL_USER: dbuser
+            MYSQL_PASSWORD: '[123456]'
+        ports:
+            - 3306:3306
+
+    mail:
+        image: mailhog/mailhog
+        ports:
+            - 1025:1025
+            - 8025:8025

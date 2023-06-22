@@ -1,0 +1,135 @@
+# Logfile created on 2023-06-21 17:28:05 +0000 by logger.rb/47272
+I, [2023-06-21T18:02:57.521933 #658]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:02:57.522910 #658]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:02:57.523349 #658] DEBUG -- : body :
+I, [2023-06-21T18:02:57.603913 #658]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:02:57.604619 #658]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:02:57.605113 #658] DEBUG -- : body :
+I, [2023-06-21T18:02:57.607619 #658]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:02:57.608256 #658]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:02:57.608749 #658] DEBUG -- : body :
+I, [2023-06-21T18:02:58.086029 #658]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:02:58.086719 #658]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:02:58.087145 #658] DEBUG -- : body :
+I, [2023-06-21T18:02:58.089660 #658]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:02:58.090416 #658]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:02:58.090994 #658] DEBUG -- : body :
+I, [2023-06-21T18:02:58.095041 #658]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:02:58.096038 #658]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:02:58.096874 #658] DEBUG -- : body :
+I, [2023-06-21T18:03:21.419962 #705]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:03:21.420657 #705]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:21.421053 #705] DEBUG -- : body :
+I, [2023-06-21T18:03:21.491665 #705]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:03:21.492421 #705]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:21.492897 #705] DEBUG -- : body :
+I, [2023-06-21T18:03:21.496797 #705]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:03:21.498105 #705]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:21.498706 #705] DEBUG -- : body :
+I, [2023-06-21T18:03:21.847488 #705]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:03:21.848891 #705]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:21.849665 #705] DEBUG -- : body :
+I, [2023-06-21T18:03:21.853094 #705]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:03:21.853793 #705]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:21.854304 #705] DEBUG -- : body :
+I, [2023-06-21T18:03:21.858562 #705]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:03:21.859356 #705]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:21.859825 #705] DEBUG -- : body :
+I, [2023-06-21T18:03:49.932807 #751]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:03:49.933690 #751]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:49.934526 #751] DEBUG -- : body :
+I, [2023-06-21T18:03:50.008468 #751]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:03:50.009439 #751]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:50.010054 #751] DEBUG -- : body :
+I, [2023-06-21T18:03:50.014072 #751]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:03:50.014779 #751]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:50.015246 #751] DEBUG -- : body :
+I, [2023-06-21T18:03:50.358918 #751]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:03:50.359529 #751]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:50.359924 #751] DEBUG -- : body :
+I, [2023-06-21T18:03:50.362908 #751]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:03:50.363924 #751]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:50.364543 #751] DEBUG -- : body :
+I, [2023-06-21T18:03:50.368345 #751]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:03:50.369046 #751]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:03:50.369501 #751] DEBUG -- : body :
+I, [2023-06-21T18:11:40.349776 #909]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:11:40.351105 #909]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:11:40.351654 #909] DEBUG -- : body :
+I, [2023-06-21T18:11:40.419321 #909]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:11:40.420071 #909]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:11:40.420488 #909] DEBUG -- : body :
+I, [2023-06-21T18:11:40.423204 #909]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:11:40.423903 #909]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:11:40.424329 #909] DEBUG -- : body :
+I, [2023-06-21T18:11:40.819157 #909]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-21T18:11:40.819972 #909]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:11:40.820420 #909] DEBUG -- : body :
+I, [2023-06-21T18:11:40.823335 #909]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-21T18:11:40.824071 #909]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:11:40.824583 #909] DEBUG -- : body :
+I, [2023-06-21T18:11:40.829182 #909]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-21T18:11:40.830182 #909]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-21T18:11:40.830949 #909] DEBUG -- : body :
+I, [2023-06-22T08:30:23.334592 #41]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T08:30:23.335436 #41]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T08:30:23.335780 #41] DEBUG -- : body :
+I, [2023-06-22T08:30:23.400505 #41]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-22T08:30:23.401370 #41]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T08:30:23.402004 #41] DEBUG -- : body :
+I, [2023-06-22T08:30:23.407014 #41]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-22T08:30:23.407650 #41]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T08:30:23.408107 #41] DEBUG -- : body :
+I, [2023-06-22T08:30:23.812027 #41]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T08:30:23.812649 #41]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T08:30:23.813021 #41] DEBUG -- : body :
+I, [2023-06-22T08:30:23.815975 #41]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-22T08:30:23.816670 #41]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T08:30:23.817215 #41] DEBUG -- : body :
+I, [2023-06-22T08:30:23.820215 #41]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-22T08:30:23.821206 #41]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T08:30:23.822267 #41] DEBUG -- : body :
+I, [2023-06-22T09:10:27.857073 #88]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:10:27.857981 #88]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:10:27.858216 #88] DEBUG -- : body :
+I, [2023-06-22T09:10:27.920773 #88]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-22T09:10:27.921472 #88]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:10:27.921887 #88] DEBUG -- : body :
+I, [2023-06-22T09:10:27.925691 #88]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-22T09:10:27.927123 #88]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:10:27.927846 #88] DEBUG -- : body :
+I, [2023-06-22T09:10:28.286712 #88]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:10:28.287838 #88]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:10:28.288674 #88] DEBUG -- : body :
+I, [2023-06-22T09:10:28.292893 #88]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-22T09:10:28.293459 #88]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:10:28.293852 #88] DEBUG -- : body :
+I, [2023-06-22T09:10:28.297002 #88]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-22T09:10:28.297949 #88]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:10:28.298460 #88] DEBUG -- : body :
+I, [2023-06-22T09:23:05.103638 #135]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:23:05.108736 #135]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-22T09:23:05.114505 #135]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-22T09:23:05.456948 #135]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:23:05.461125 #135]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has a matching body'
+I, [2023-06-22T09:23:05.464727 #135]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2023-06-22T09:24:07.564128 #182]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi [PENDING] Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:24:07.642631 #182]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:24:07.643403 #182] DEBUG -- : body :
+I, [2023-06-22T09:24:07.710862 #182]  INFO -- : Received response with status: 200, headers: {"Date"=>"Thu, 22 Jun 2023 09:24:07 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.1.20", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2023-06-22T09:24:07.711331 #182] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
+I, [2023-06-22T09:24:07.885821 #182]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:24:07.894589 #182]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:24:07.895054 #182] DEBUG -- : body :
+I, [2023-06-22T09:24:07.903797 #182]  INFO -- : Received response with status: 200, headers: {"Date"=>"Thu, 22 Jun 2023 09:24:07 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.1.20", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2023-06-22T09:24:07.904443 #182] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
+I, [2023-06-22T09:25:32.719757 #229]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:25:32.758036 #229]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:25:32.758479 #229] DEBUG -- : body :
+I, [2023-06-22T09:25:32.824469 #229]  INFO -- : Received response with status: 200, headers: {"Date"=>"Thu, 22 Jun 2023 09:25:32 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.1.20", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2023-06-22T09:25:32.824875 #229] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
+I, [2023-06-22T09:25:33.010148 #229]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-22T09:25:33.021764 #229]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-22T09:25:33.022382 #229] DEBUG -- : body :
+I, [2023-06-22T09:25:33.032805 #229]  INFO -- : Received response with status: 200, headers: {"Date"=>"Thu, 22 Jun 2023 09:25:33 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.1.20", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2023-06-22T09:25:33.033792 #229] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
