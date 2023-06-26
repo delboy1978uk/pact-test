@@ -58,7 +58,6 @@ services:
             - mail
         environment:
             APPLICATION_ENV: '${APPLICATION_ENV}'
-        user: php:staff
 
     app:
         image: httpd:2.4.38

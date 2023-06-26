@@ -133,3 +133,13 @@ I, [2023-06-22T09:25:33.021764 #229]  INFO -- : Sending GET request to path: "/h
 D, [2023-06-22T09:25:33.022382 #229] DEBUG -- : body :
 I, [2023-06-22T09:25:33.032805 #229]  INFO -- : Received response with status: 200, headers: {"Date"=>"Thu, 22 Jun 2023 09:25:33 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.1.20", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
 D, [2023-06-22T09:25:33.033792 #229] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
+I, [2023-06-26T15:07:22.873323 #161]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-26T15:07:22.926711 #161]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-26T15:07:22.927202 #161] DEBUG -- : body :
+I, [2023-06-26T15:07:23.004391 #161]  INFO -- : Received response with status: 200, headers: {"Date"=>"Mon, 26 Jun 2023 15:07:22 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.0.28", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2023-06-26T15:07:23.005047 #161] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
+I, [2023-06-26T15:07:23.297316 #161]  INFO -- : Running example 'Verifying a pact between HelloWorldGateway and HelloApi Given a person exists a get request to /hello/{name} with GET /hello/Bob returns a response which has status code 200'
+I, [2023-06-26T15:07:23.304618 #161]  INFO -- : Sending GET request to path: "/hello/Bob" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"a person exists"}]}, see debug logs for body
+D, [2023-06-26T15:07:23.305384 #161] DEBUG -- : body :
+I, [2023-06-26T15:07:23.312516 #161]  INFO -- : Received response with status: 200, headers: {"Date"=>"Mon, 26 Jun 2023 15:07:23 GMT", "Server"=>"Apache/2.4.57 (Unix) OpenSSL/3.0.9", "X-Powered-By"=>"PHP/8.0.28", "Content-Type"=>"application/json", "Content-Length"=>"43"}, see debug logs for body
+D, [2023-06-26T15:07:23.313236 #161] DEBUG -- : body: {"result":"success","message":"Hello, Bob"}
